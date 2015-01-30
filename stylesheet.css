@@ -53,13 +53,15 @@ table {
 
 /* Timeline */
 
+html, body {
+  height: 100%;
+}
+
 .timeline {
-  width: 100%;
-  background: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 .projects {
-  width: 100%;
-  background: #222222;
+  background-color: #222222;
 }
 
