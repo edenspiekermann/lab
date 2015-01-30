@@ -63,14 +63,13 @@ html, body {
 }
 
 .timeline {
-  background-color: #f6f6f6;
+  background-color: #222222;
   width: 100%;
   padding: 2em;
-  background: #f6f6f6;
 }
 
 .project {
-  background-color: #222222;
+  background-color: #f6f6f6;
 }
 
 h1 {
