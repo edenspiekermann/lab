@@ -51,9 +51,15 @@ table {
 }
 
 
-/* Layout */
+/* Timeline */
 
-.wrap {
-  width: 80%;
-  margin: 0 auto;
+.timeline {
+  width: 100%;
+  background: #f6f6f6;
 }
+
+.projects {
+  width: 100%;
+  background: #222222;
+}
+
