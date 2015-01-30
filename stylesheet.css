@@ -1,5 +1,10 @@
-/* Reset */
+/* Fonts */
+@font-face {font-family: 'espiregular';src: url('http://www.edenspiekermann.com/fonts/espipro-regular-webfont.eot');src: url('http://www.edenspiekermann.com/fonts/espipro-regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.edenspiekermann.com/fonts/espipro-regular-webfont.woff') format('woff'),url('http://www.edenspiekermann.com/fonts/espipro-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'espibold';src: url('http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.eot');src: url('http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.woff') format('woff'),url('http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'espislabbold';src: url(‚'http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.eot');src: url(‚'http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.eot?#iefix') format('embedded-opentype'),url(‚'http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.woff') format('woff'),url(‚'http://www.edenspiekermann.com/fonts/espislabpro-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'espilight';src: url('http://www.edenspiekermann.com/fonts/espipro-light-webfont.eot');src: url('http://www.edenspiekermann.com/fonts/espipro-light-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.edenspiekermann.com/fonts/espipro-light-webfont.woff') format('woff'),url('http://www.edenspiekermann.com/fonts/espipro-light-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 
+/* Reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -60,6 +65,7 @@ table {
 
 html, body {
   height: 100%;
+  font-family: espiregular, sans-serif;
 }
 
 .timeline {
@@ -85,8 +91,7 @@ html, body {
 
 h1 {
   font-size: 1.4em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: bold;
   color: #fff;
 }
 
