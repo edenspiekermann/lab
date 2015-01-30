@@ -49,6 +49,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 
 /* Timeline */
@@ -59,9 +64,20 @@ html, body {
 
 .timeline {
   background-color: #f6f6f6;
+  width: 100%;
+  padding: 2em;
+  background: #f6f6f6;
 }
 
-.projects {
+.project {
   background-color: #222222;
 }
+
+h1 {
+  font-size: 1.4em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
 
