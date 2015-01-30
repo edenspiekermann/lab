@@ -66,6 +66,7 @@ table {
 html, body {
   height: 100%;
   font-family: espiregular, sans-serif;
+  background-color: #ececec;
 }
 
 .timeline {
