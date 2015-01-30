@@ -27,6 +27,8 @@
         <li>...</li>
       </ul>
 
+      <div id="instafeed"></div>
+
     </main>
 
     <footer>
@@ -35,5 +37,14 @@
 
   </section>
 
+  <script src="/instafeed.min.js"></script>
+  <script type="text/javascript">
+    var feed = new window.Instafeed({
+      get: 'tagged',
+      tagName: 'edenspiekermann',
+      clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+  </script>
 </body>
 </html>
