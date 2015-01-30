@@ -49,17 +49,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 
 /* Timeline */
 
+
+
 .timeline {
   width: 100%;
+  padding: 2em;
   background: #f6f6f6;
 }
 
 .projects {
   width: 100%;
   background: #222222;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
 }
 
