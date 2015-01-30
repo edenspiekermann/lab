@@ -93,6 +93,8 @@ h1 {
   font-size: 1.4em;
   font-family: espislabbold, sans-serif;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
