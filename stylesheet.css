@@ -91,7 +91,7 @@ html, body {
 
 h1 {
   font-size: 1.4em;
-  font-weight: bold;
+  font-family: espislabbold, sans-serif;
   color: #fff;
 }
 
